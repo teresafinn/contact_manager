@@ -16,6 +16,10 @@ RSpec.describe Person, type: :model do
     expect(person).not_to be_valid
   end
 
+  it 'is valid' do
+    expect(person).to be_valid
+  end
+
 
 
 
